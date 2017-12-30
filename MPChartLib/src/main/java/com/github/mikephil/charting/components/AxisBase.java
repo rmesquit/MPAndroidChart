@@ -60,7 +60,7 @@ public abstract class AxisBase extends ComponentBase {
     /**
      * the minimum interval between axis values
      */
-    protected float mGranularity = 1.0f;
+    protected float mGranularity = 0.2f;
 
     /**
      * When true, axis labels are controlled by the `granularity` property.
